@@ -49,6 +49,9 @@ table {
 /*--------------------------リセットCSS--------------------------*/
 
 /*--------------------------ここから--------------------------*/
+body {
+	background-color : #0f1a33;
+}
 .head-container{
   background-color : black;
   height : 50px;
@@ -56,4 +59,29 @@ table {
   opacity : 0.7;
 
   position: fixed;
+}
+.home_photo{
+	background-image : url(sora_photo2.jpg), linear-gradient(#c9ffbf, #ffafbd);;
+	background-blend-mode : hard-light;
+	min-height: 500px;
+}
+.home_title{
+	color : #fff;
+	text-align : center;
+	position: relative;
+	top : 30vh;
+	font-family: "yu Gothic Medium", "淑ゴシック Medium", YuGothic, "淑ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	font-size : 5em;
+}
+.wrapper{
+  max-width:1100;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.grid{
+  display: grid;
+  gap:26px;
+  grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
 }
