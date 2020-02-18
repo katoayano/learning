@@ -1,0 +1,113 @@
+body {
+	background-color : #0f1a33;
+  font-family: "yu Gothic Medium", "淑ゴシック Medium", YuGothic, "淑ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+.l-headerLine {
+  position: fixed;
+  width : 100%;
+  height : 10%;
+  background-color : black;
+  opacity : 0.7;
+	z-index: 1;
+}
+
+.l-headerLineInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.l-headerNav {
+  display: flex;
+  width: 30%;
+}
+
+.l-headerNavList {
+  display: flex;
+}
+
+.l-headerNavList__item {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.l-headerNavList__link {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.l-headerNavList__link:hover {
+  color: #9ff;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+
+
+.l-headerLine__logoPic {
+  width: 50px;
+  height: auto;
+}
+
+.l-header__titlePhoto {
+	width: 100%;
+  height: auto;
+	background-blend-mode : hard-light;
+}
+
+.l-header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-image: url(sora_photo2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+	color : #fff;
+	text-align : center;
+	font-size : 30px;
+}
+
+.l-header__titleText {
+	color : #fff;
+	font-size : 30px;
+}
+
+.p-mainConteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.p-mainConteiner__item {
+	width: 100%;
+  height: auto;
+  transition: all .3s;
+}
+
+.p-mainConteiner__item:hover {
+  transform: translateY(-5px);
+}
+
+
+.p-mainConteiner__itemPhoto {
+	width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .p-mainConteiner {
+    display: block;
+  }
+
+}
