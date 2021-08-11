@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
 }
@@ -24,6 +24,7 @@ body {
 .l-headerNav {
   display: flex;
   width: 30%;
+  justify-content: flex-end;
 }
 
 .l-headerNavList {
